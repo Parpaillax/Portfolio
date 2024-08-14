@@ -1,6 +1,5 @@
 <template>
-  <v-layout>
-    <v-navigation-drawer app expand-on-hover rail clipped>
+    <v-navigation-drawer left abosulte expand-on-hover rail clipped>
       <v-list>
         <v-list-item
             prepend-avatar="../public/profile_picture.jpg"
@@ -17,5 +16,4 @@
         <v-list-item prepend-icon="mdi-star" title="Mes compétences" value="starred"></v-list-item>
       </v-list>
     </v-navigation-drawer>
-  </v-layout>
 </template>
